@@ -2,6 +2,7 @@ nav{
     display: flex;
     flex-direction:column;
     background-color: lightgray;
+    padding: 10px;
     
 }
 .container{
@@ -13,12 +14,18 @@ nav{
     display: flex;
 
     justify-content: flex-start;
+    width: 50%;
+    
 }
 
 .two{
 display:flex ;
-justify-content: flex-end;    
+justify-content: flex-end;  
+width: 50%;  
 
+}
+.login{
+    margin-right: 10px;
 }
 
 
@@ -45,4 +52,8 @@ justify-content: flex-end;
     border: none ;
     padding: 10px;
     background-color: lightgray;
+}
+
+text1{
+    height:30px
 }
