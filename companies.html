@@ -6,6 +6,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel='stylesheet' type='text/css' href='styles.css'>
     
 </head>
@@ -27,9 +28,12 @@
         <p>Here is our list of the top software empolyers in the Boston area.</p>
     </div>
         <div class= "burr">
-            <button onclick >Display List</button>
-            <button onclick >Alpahabetize</button> 
+            <button id="displayAll" class='btn btn-primary btn-large'>Display List</button>
+            <button id ="displayAll" class='btn btn-primary btn-large'>Alpahabetize</button> 
          </div>
+         <!-- Need display element here -->
+<div class='companies-container'>
+</div>
         <footer>Enter the information for the new company below</footer>
       
         <form action="/action_page.php">
@@ -41,8 +45,8 @@
             <input type="text1" id="blurb" name="blurb"><br><br>
            
           </form>
-        <button onclick="clearFunction()">Clear</button>
-        <button onclick="myFunction()">Add a company</button>
+        <button id="clearCompany" class='btn btn-primary btn-large'>Clear</button>
+        <button id= "addCompany" class='btn btn-primary btn-large'>Add a company</button>
        
     
     <p id="demo"></p>
